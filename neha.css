@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+   
+
+    }
+
+ html {
+        scroll-behavior: smooth
+      }
+      
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(50, 49, 49);
+    /* width: 100%;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0; */
+    
+
+    
+}
+#navlogo{
+    margin-right: 250px;
+}
+.navitems a{
+    margin-left: 30px;
+    text-decoration: none;
+    color:rgb(36, 28, 125);
+    
+}
+.navitems a:hover{
+    text-decoration:underline;
+    color:rgb(36, 28, 125);
+}
+
+/* .container{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    position: fixed;
+   
+} */
+  /* corousel starts */
+
+  .imgcall {
+    border: 0.5px solid rgb(160, 153, 153);
+    padding: 2px;
+    width:120px;
+    color:white;
+    border-radius: 5px;
+    /* margin-left: 370px; */
+    margin-left: 150px;
+    margin-top: -150px;
+  }
+
+  .h1img{
+    /* margin-bottom: 50px; */
+    margin-right: 450px;
+    color: white;
+    
+  }
+
+  .imgcall:hover{
+   background-color: rgb(242, 18, 18);
+  }
+
+
+  .pimg{
+    
+    margin-bottom: 200px;
+    width: 430px;
+    
+  }
+
+ .imgcorousel{
+    height: 500px;
+    width: 100%;
+   background-attachment: fixed;
+    
+ }
+/* corousel ends */
+
+#container2{
+    background-color: rgb(243, 247, 249);
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+}
+
+h4{
+    margin-left: 280px;
+    margin-top: 30px;
+    color: rgb(43, 22, 133);
+}
+.video{
+    width: 400px;
+    height: 200px;
+    
+}
+.videoh51{
+    margin-left: 468px;
+    margin-top: -250px;
+    color: rgb(9, 8, 7);
+
+
+}
+
+.videoh52{
+    margin-left: 468px;
+    color:rgb(36, 28, 125);
+   
+    
+}
+
+.videotext{
+    margin-left: 465px;
+    margin-top: 20px;
+    height: 400px;
+    width: 430px;
+    font-size: smaller;
+   
+}
+.video1{
+ margin-top: 80px;
+
+   
+}
+
+.videodowntext{
+    margin-top: -200px;
+    /* width: 70%; */
+    
+}
+.videodowntext1{
+     color:rgb(36, 28, 125);
+  
+}
+
+.vt{
+    font-size: smaller;
+}
+
+/* container 3 */
+
+#container3{
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    /* background-color:rgb(253, 242, 242); */
+}
+
+#services{
+    margin-left: 470px;
+    color:rgb(36, 28, 125);
+  
+  
+}
+
+.serv1{
+    margin-left: 300px;
+}
+.serv2{
+    margin-top: -15px;
+    margin-left: 380px;
+    padding-bottom: 20px;
+}
+
+.product{
+    margin-left: 28px;
+    text-transform: capitalize;
+    color: rgb(33, 33, 130);
+
+}
+
+
+.flexbox{
+    width: 300px;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-evenly;
+ background-attachment: fixed;
+  
+}
+.serviceimage{
+    height: 200px;
+    width: 300px;
+}
+
+.servicepara{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7px;
+}
+
+.boxdown{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.boxdown:hover{
+    background-color: rgb(15, 15, 154);
+    color: white;
+}
+
+/* .flexcontainer2{
+   margin-top: 430px;
+   display: flex;
+
+} */
+
+#container4{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(243, 247, 249);
+}
+.flexcomingsoon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    justify-items: auto;
+
+}
+
+.comingsoon{
+    border: 2px solid rgba(195, 55, 55, 0.562);
+    outline: 3px solid white;
+    
+    
+}
+
+.gallery{
+    margin-left: 475px;
+    margin-top: 50px;
+    color:rgb(36, 28, 125);
+
+}
+.Workshop{
+    margin-left: 465px;
+    font-size: small;
+}
+
+#container4{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.dp{
+    margin-bottom: 30px;
+    border: 0.5px solid   rgba(255, 255, 255, 0.192);
+    height: 80px;
+    width: 80px;
+    border-radius: 45px;
+}
+/* 
+container5 */
+
+#container5{
+    padding-top: 50px;
+    padding-bottom: 80px;
+   
+}
+
+.contact{
+    margin-left: 550px;
+    text-transform: capitalize;
+    color:rgb(36, 28, 125);
+
+}
+.contactp{
+    margin-left: 470px;
+    text-transform: capitalize;
+    font-size: small;
+    color: black;
+    
+}
+
+.side{
+    margin-left: 100px;
+    width: 360px;
+  
+
+}
+
+.side h6{
+    text-transform: capitalize;
+    color: rgb(31, 31, 95);
+}
+
+.side p{
+    font-size: small;
+    color: black;
+}
+
+#ouraddress{
+    margin-left: 0px;
+    text-transform: capitalize;
+    color: rgb(32, 32, 184);
+
+}
+.map{
+    
+    margin-left: 650px;
+    margin-top: -200px;
+}
+
+/* container6 */
+
+#container6{
+    background-color:rgb(81, 81, 191) ;
+    height: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box1{
+    width: 450px;
+    margin-left: 100px;
+}
+.box1 h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+
+}
+.box1 p{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size:smaller;
+   color: white;
+   margin-top: 15px;
+}
+.yellow p{
+    color: rgb(245, 198, 9);
+}
+.sslimg img{
+    margin-left: 350px;
+    margin-top: -80px;
+    border: 0.5px solid rgba(255, 255, 255, 0.173);
+    border-radius: 10px;
+    
+}
+.box2{
+    margin-left: 600px;
+    margin-top: -200px;
+    color: white;
+}
+
+.qr{
+ margin-left: 950px;
+ margin-top: -125px;
+ height: 100px;
+ width: 100px;
+ border: 3px solid black;
+ outline: 2px solid white;
+}
+
+.box3 p{
+    color:white;
+    margin-left: 950px;
+    margin-bottom: 20px;
+    
+}
+#google{
+    margin-top: -20px;
+   
+
+}
+#yom{
+    font-size: xx-small;
+    margin-top: -20px;
+
+}
+#reviewus{
+    font-size: xx-small;
+}
+#google p::first-letter{
+    color: red;
+}
+
+#footer{
+    height: 40px;
+    background-color: rgb(38, 38, 158);
+    color: white;
+    width: 100%;
+   
+  
+}
+.privacy{
+    text-decoration: none;
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
+.powered{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.star{
+    color: yellow;
+    width: 10px;
+    height: 10px;
+   
+}
